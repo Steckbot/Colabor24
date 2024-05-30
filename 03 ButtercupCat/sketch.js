@@ -20,7 +20,7 @@ function preload(){
   cat = loadModel("12221_Cat_v1_l3.obj", false);
   catImg = loadImage("Cat_diffuse.jpg");
   soundFormats("mp3");
-  mySound = loadSound('Buttercup.mp3');
+  mySound = loadSound('buttercup.mp3');
 }
 
 
