@@ -8,19 +8,6 @@
   </head>
   <body>
     <h1>Sprint 1</h1>
-    <p>
-      SPRINT 1
-
-SKETCHES
-Sprint 1; Zwei verschiedene Sketches, von denen es beim zweiten Sketch eine visuelle Alternative mit anderen Parametern gibt. Beim ersten Sketch sieht man ein Raster, dessen Spalten und Zeilen man mit einem Regler dynamisch anpassen kann. Ebenfalls mit einem Regler kann man die Abstände zwischen den Quadraten anpassen. Jedes Rasterquadrat hat einen kleinen Text, welche durch das Verschieben des globalen Koordinatensystems an Ort und Stelle durch einen random generierten Wert gedreht werden. Die Wörter werden zufällig aus einem Array ausgewählt. Jede Rasterzeile hat die gleiche Farbe wobei sich durch jede weitere Instanz ein geringer Farbwert dazu addiert wird, was Visuell einen Verlauf ergibt.
-Beim zweiten Sketch is ebenfalls ein Raster die Grundlage. Vierecke werden mit zufälliger Höhe und Breite erstellt. Die Vierecke haben aber in der vertikalen Dimension immer die gleiche Höhe, Breite und Abstand, der dem zweifachen der Höhe entspricht. Beim ersten der beiden Sketche sind die Vierecke in der horizontalen grösser, beim zweiten ist die horizontale Dimension grösser. Im Sketch wird jede Sekunde ein neues zufälliges Muster dadurch generiert.
-
-ENTSCHEIDUNGEN
-Ich habe mich primär mit Rastern und deswegen mit doppelten for-loops beschäftigt. Ich nutzte die Zeit, um mir eigene Aufgaben zu stellen, welche ich dann im Code lösen konnte oder auch nicht. Mir ging es primär darum, das Coden zu lernen und festigen und somit war bei mir Inhalt und Visualität nicht im Vordergrund. Meine erste Visualisierung könnte man mit etwas Fantasie mit den Raster-Werken von Vera Molnar gegenüberstellen. Die beiden anderen Sketches erinnern an Werke der Zürcher Konkreten. Bei beiden Fällen habe ich mich nicht aktiv inspirieren lassen.
-
-GELERNT
-Durch die Übungen lernte ich, wie doppelte for-loops funktionieren und gewann generell ein besseres Verständnis für Code. Ich lernte, wie man Random Zahlen generieren und nutzen kann oder wie man Arrays schreibt und daraus Wörter auswählen lassen kann. Ebenfalls habe ich mit zeitlichen Komponenten und mit Sinus-Funktionen experimentiert. Allerdings waren die Ergebnisse visuell nicht überzeugend.
-    </p>
     <ul>
         <li>
             <a href="04_Grid 1/" >Dynamic Grid</a> <br>
@@ -29,14 +16,6 @@ Durch die Übungen lernte ich, wie doppelte for-loops funktionieren und gewann g
         </li>
     </ul>
     <h1>Sprint 2</h1>
-    <p>SPRINT 2
-
-ERGEBNIS
-Im Sprint 2 habe ich zwei verschiedene Sketches produziert. Der erste ist eine unendliche Animation von Wörtern, welche dem Zuschauer entgegenfliegen. Das Wort wird per random aus einem Array ausgewählt und fängt mit einer Textgrösse von wenigen Pixeln an. Danach gibt es ein If-Statement, welches schaut, ob der Text kleiner als 170 Pixel ist, und wenn das zutrifft, wird der Text mit jedem Frame grösser.
-Der zweite Sketch ist eine Markov-Chain, welche unsere Gruppe im Internet gefunden hat. Diese kombiniert zwei Texte und generiert einen neuen Text daraus. Wir haben gemeinsam unsere Spam-E-Mails gesammelt und diese als Input für diese Technologie verwendet. Ich habe noch einen Effekt dazu programmiert, welcher die Textgrösse verändert, wenn die Maus über dem Text ist. Der Text wird zuerst in Wörter und dann in Buchstaben zerteilt. Danach wird geschaut ob sich in einem Radius ausgehend von der Mausposition Buchstaben befinden. Wenn ja, werden die Buchstaben mit grösserer Schriftgrösse gezeichnet.
-
-BEZÜGE & ANKNÜPFUNGSPUNKTE
-Die Technologie der Markov-Chain war für mich etwas völlig Neues. Ich kenne Sprachmodelle, wie ChatGPT, die auch Informationen sortieren und neu interpretieren. Im Gegensatz dazu ist die Markov-Chain ziemlich einfach aufgebaut. Die Markov-Chain kann lediglich die letzten geschriebenen Buchstaben analysieren und ausrechnen, wie hoch die Wahrscheinlichkeiten für die nächsten Buchstaben sind. Ich weiss nicht, wie ChatGPT im Kern funktioniert, aber ich kann mir vorstellen, dass ChatGPT heruntergebrochen und ganz stark vereinfacht auch so funktionieren könnte. Die Möglichkeiten von ChatGPT sind allerdings unendlich komplexer. </p>
     <ul>
         <li>
             <a href="02 Markov/" >Markov</a> <br>
@@ -45,14 +24,6 @@ Die Technologie der Markov-Chain war für mich etwas völlig Neues. Ich kenne Sp
         </li>
     </ul>
     <h1>Sprint 3</h1>
-    <p>SPRINT 3
-
-
-ERGEBNIS
-Eine Musikvisualisierung mit P5JS mit WEBGL. Das Musikstück wird mit Preload direkt in den Sketch geladen, genauso wie die 3D-Elemente. Diese bewegen sich standardmässig in die y-Achse. Ihre x- und z-Achse bewegen sich, wenn die Lautstärke der Musik einen gewissen Pegel erreicht. Das 3d Model wird verzogen, je nach Lautstärke der Musik. Zusätzlich, wenn die Musik einen besonders hohen Pegel erreicht, zeichnet es die 3D-Objekte mit einem «Echo». 
-
-EXPERIMENTE UND GELERNTES
-Anfangs habe ich noch mit VCV Rack und VB Cable gearbeitet, aber ich habe mich dann entschieden, technologisch nur mit P5 zu arbeiten, damit ich mich voll auf eine Technologie konzentrieren kann und darin weiterkomme. Ich startete mit diesem Musikstück, welches man eigentlich von Memes kennt. Durch dieses lustige und absurde Lied wurde dann auch meine Visualisierung dementsprechend unseriös und witzig. Ich konnte in P5JS einige Hürden überwinden. Das Laden von 3D-Objekten und Texturen war etwas völlig Neues – wie auch die Arbeit mit WEBGL und der Umgang mit Sound. Einige Experimente mit Farbe und mit fft sind mir gelungen, konnten aber Visuell nicht überzeugen, weswegen sie nicht mehr teil des Sketches sind.</p>
     <ul>
         <li>
             <a href="03 ButtercupCat/" >Buttercup Cat</a> 
